@@ -1,0 +1,10 @@
+pandas
+numpy
+recordlinkage
+unidecode
+scikit-learn
+xgboost
+matplotlib
+seaborn
+openpyxl
+pyarrow
