@@ -7,6 +7,13 @@ An automated, memory-efficient Python pipeline that merges and deduplicates nois
 
 ---
 
+## 📊 Dataset & Public Source
+The primary corporate records used in this research were extracted from public Brazilian business registries:
+* **Primary Source:** [Receita Federal do Brasil — Dados Públicos de CNPJ](https://dados.gov.br/)
+* **Public Repository:** [Brasil.IO — Dataset Sócios das Empresas Brasileiras](https://brasil.io/dataset/socios-brasil/)
+
+> **Note:** The dataset used in the pipeline contains public records including corporate names (`razao_social`), Brazilian federative units (`uf`), and tax IDs (`cnpj`).
+
 ## 📌 Executive Summary
 In Mergers & Acquisitions (M&A) and enterprise data governance, integrating relational databases without universal primary keys leads to severe data fragmentation. Traditional static thresholds (e.g., Jaro-Winkler > 0.85) fail due to corporate suffix variations (`LTDA`, `S.A.`), syntactic inversions, and typographical errors, yielding high false-positive rates.
 
